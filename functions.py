@@ -49,7 +49,9 @@ def r_factorial_prime(x):
 
 
 def rfac_prime_help(num):
-    if num <= 1:
+    if num < 1:
+        return 0
+    if 1 <= 1 < 2:
         return 1
     
     whole = int(num // 1)
